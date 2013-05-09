@@ -1,0 +1,1387 @@
+@charset "UTF-8";
+@import url("style__fonts.css");
+@import url("style__thework.css");
+@import url("style__oldglory.css");
+@import url("style__case.css");
+
+/*
+	PIATEK.DK CSS (MAIN)
+	
+*/
+
+html {
+	-webkit-font-smoothing: antialiased;	
+}
+
+body {
+	background-color: #ECECEC;
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'DidotLTStdItalic';
+	font-size: 14px;
+	color: #333333;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 18pt;
+	letter-spacing: 0.075em;
+	
+	-webkit-font-smoothing: antialiased;
+}
+
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	border: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+a img {
+	border: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+/* LINKS -------------------------------------------------------------------------------------------------- */
+
+a:link {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+	color: #333333;	
+	text-decoration: none;
+}
+
+
+/* MAIN -------------------------------------------------------------------------------------------------- */
+
+.container {
+	z-index: 10;
+	position: absolute;
+	overflow: hidden;
+	margin: 0px 0px 0px -560px;
+	padding: 0px 0px 0px 0px;
+	left: 50%;
+	width: 1120px;
+	height: auto;
+	display: block;
+	top: -13px;
+}
+
+
+/* HEADER -------------------------------------------------------------------------------------------------- */
+
+.header {
+	z-index: 11;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 30px 0px 30px;
+	padding: 0px 0px 0px 0px;
+	width: 1060px;
+	height: 250px;
+	display: block;
+}
+
+.logotext {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 90px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 485px;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.logo {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 60px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	float: left;
+	
+	background-image: url(../images/logo__mp.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.nav {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 95px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 485px;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+
+.nav li {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 30px;
+	width: auto;
+	height: auto;
+	display: inline;
+	float: right;
+	list-style-type: none;
+}
+
+.nav li a {
+	z-index: 12;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #333333;
+	font-family: 'DidotLTStdItalic';
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 16pt;
+	letter-spacing: 0.075em;
+	
+	-webkit-font-smoothing: antialiased;
+}
+
+.nav li a:hover {
+	z-index: 12;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #333333;
+	font-family: 'DidotLTStdItalic';
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 16pt;
+	letter-spacing: 0.075em;
+	border-bottom: 1px #333333 dotted;
+	
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* THE WORK -------------------------------------------------------------------------------------------------- */
+
+.thework {
+	z-index: 11;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 1100px;
+	height: auto;
+	display: block;
+}
+
+.thework_01 {
+	z-index: 11;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 1100px;
+	height: 900px;
+	display: block;
+}
+
+.thework_02 {
+	z-index: 21;
+	position: relative;
+	overflow: hidden;
+	margin: -455px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 1100px;
+	height: 900px;
+	display: block;
+}
+
+.thework_03 {
+	z-index: 31;
+	position: relative;
+	overflow: hidden;
+	margin: -455px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 1100px;
+	height: 900px;
+	display: block;
+}
+
+.thework_04 {
+	z-index: 41;
+	position: relative;
+	overflow: hidden;
+	margin: -455px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 1100px;
+	height: 900px;
+	display: block;
+}
+
+.thework_05 {
+	z-index: 51;
+	position: relative;
+	overflow: hidden;
+	margin: -455px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 1100px;
+	height: 640px;
+	display: block;
+}
+
+.thework_awards_sep {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 3px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-color: #FFFFFF;
+}
+
+.thework_awards_sep_g {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 3px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-color: #ECECEC;
+}
+
+.thework_awards_thefwa_sotd {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__thefwa_sotd.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_awwwards_sotd {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__awwwards_sotd.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_awwwards_nominee {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__awwwards_nominee.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_csslounge_sotd {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__csslounge_sotd.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_csslounge_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__csslounge_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_csswinner_sotd {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__csswinner_sotd.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_csswinner_nominee {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__csswinner_nominee.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_cssa_sotd {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__cssa_sotd.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_cssa_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__cssa_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_cssa_nominee {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__cssa_nominee.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_cssda_sotd {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__cssda_sotd.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_cssda_nominee {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__cssda_nominee.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_designlicks_sotd {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__designlicks_sotd.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_designdelight_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__designdelight_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_1stwebdesigner_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__1stwebdesigner_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_foliospark_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__foliospark_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_neuecss_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__neuecss_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_webinspeer_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__webinspeer_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_fdi_sotd {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__fdi_sotd.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}       
+
+.thework_awards_fdi_nominee {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__fdi_nominee.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}       
+
+.thework_awards_cssbrigit_nominee {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__cssbrigit_nominee.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_csslight_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__csslight_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_csslight_fotd {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__csslight_fotd.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}       
+
+.thework_awards_tbd_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__tbd_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_cssmania_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__cssmania_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_cssreel_nominee {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__cssreel_nominee.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_cssreel_wotd {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__cssreel_wotd.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_noil_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__noil_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.thework_awards_creativesden_featured {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 59px;
+	height: 52px;
+	display: block;
+	float: left;
+	
+	background-image: url(../images/award_icons__creativesden_featured.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+
+/* OLD GLORY -------------------------------------------------------------------------------------------------- */
+
+.oldglory {
+	z-index: 11;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 1100px;
+	height: auto;
+	display: block;
+}
+
+.oldglory_01 {
+	z-index: 11;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 1100px;
+	height: auto;
+	display: block;
+}
+
+
+/* ABOUT -------------------------------------------------------------------------------------------------- */
+
+.about {
+	z-index: 11;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 15px 0px 15px;
+	padding: 0px 0px 0px 0px;
+	width: 1090px;
+	height: auto;
+	display: block;
+}
+
+.about_heroimage {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 1070px;
+	height: 415px;
+	display: inline-block;
+	
+	background-image: url(../images/heroimage__about.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.about_info_caption {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 40px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 1070px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.about_info_text, .about_awards_text {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 25px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 1070px;
+	height: auto;
+	display: inline-block;
+	text-align: left;
+}
+
+.about_awards_caption {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 1070px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.about_awards_year {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 1070px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.about_awards_text_client {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 350px;
+	height: auto;
+	display: inline-block;
+	text-align: left;
+}
+
+.about_awards_text_project {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 360px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.about_awards_text_award {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 350px;
+	height: auto;
+	display: inline-block;
+	text-align: right;
+}
+
+
+/* CONTACT -------------------------------------------------------------------------------------------------- */
+
+.contact {
+	z-index: 11;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 15px 0px 15px;
+	padding: 0px 0px 0px 0px;
+	width: 1090px;
+	height: auto;
+	display: block;
+}
+
+.contact_heroimage {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 1070px;
+	height: 415px;
+	display: inline-block;
+	
+	background-image: url(../images/heroimage__contact.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_info_caption {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 40px 10px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 1070px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.contact_info_text {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 25px 10px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 1070px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.contact_social {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 25px 10px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 1070px;
+	height: auto;
+	display: inline-block;
+	text-align: left;
+}
+
+.contact_social_sep {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 19px;
+	height: 98px;
+	display: inline-block;
+}
+
+.contact_social_eletter {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__eletter_out.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_eletter:hover {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__eletter_over.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_linkedin {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__linkedin_out.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_linkedin:hover {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__linkedin_over.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_twitter {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__twitter_out.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_twitter:hover {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__twitter_over.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_facebook {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__facebook_out.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_facebook:hover {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__facebook_over.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_googleplus {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__googleplus_out.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_googleplus:hover {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__googleplus_over.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_tumblr {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__tumblr_out.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.contact_social_tumblr:hover {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 191px;
+	height: 98px;
+	display: inline-block;
+	
+	background-image: url(../images/social_icons__tumblr_over.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+
+/* FOOTER -------------------------------------------------------------------------------------------------- */
+
+.footer {
+	z-index: 11;
+	position: relative;
+	overflow: hidden;
+	margin: 90px 30px 0px 30px;
+	width: 1060px;
+	height: 150px;
+	display: block;
+}
+
+.logo_small {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 514px 0px 514px;
+	padding: 0px 0px 0px 0px;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	
+	background-image: url(../images/logo__mp_small_out.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.logo_small:hover {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 0px 514px 0px 514px;
+	padding: 0px 0px 0px 0px;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	
+	background-image: url(../images/logo__mp_small_over.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.copyright {
+	z-index: 12;
+	position: relative;
+	overflow: hidden;
+	margin: 15px 390px 0px 390px;
+	padding: 0px 0px 0px 0px;
+	width: 280px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+}
+
+.container, .thework {
+	border: dashed 0px red;
+}
+
+/* HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+
+header, section, footer, aside, article, figure {
+	display: block;
+}
+
+/* RETINA RESOLUTION -------------------------------------------------------------------------------------------------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	
+	/* //. LOGOS */
+
+	.logo {
+		-webkit-background-size: 90px 90px;
+		background-image: url(../images/logo__mp@2x.png);
+	}
+	
+	.logo_small {
+		-webkit-background-size: 32px 32px;
+		background-image: url(../images/logo__mp_small@2x.png);
+	}
+	
+	
+	/* HERO IMAGES */
+
+	.about_heroimage {
+		-webkit-background-size: 1070px 415px;
+		background-image: url(../images/heroimage__about@2x.png);
+	}
+	
+	.contact_heroimage {
+		-webkit-background-size: 1070px 415px;
+		background-image: url(../images/heroimage__contact@2x.png);
+	}
+	
+	
+	/* SOCIAL NETWORK IMAGES */
+
+	.contact_social_eletter {
+		-webkit-background-size: 191px 98px;
+		background-image: url(../images/social_icons__eletter@2x.png);
+	}
+	
+	.contact_social_linkedin {
+		-webkit-background-size: 191px 98px;
+		background-image: url(../images/social_icons__linkedin@2x.png);
+	}
+	
+	.contact_social_twitter {
+		-webkit-background-size: 191px 98px;
+		background-image: url(../images/social_icons__twitter@2x.png);
+	}
+	
+	.contact_social_facebook {
+		-webkit-background-size: 191px 98px;
+		background-image: url(../images/social_icons__facebook@2x.png);
+	}
+
+	.contact_social_googleplus {
+		-webkit-background-size: 191px 98px;
+		background-image: url(../images/social_icons__googleplus@2x.png);
+	}
+	
+	.contact_social_tumblr {
+		-webkit-background-size: 191px 98px;
+		background-image: url(../images/social_icons__tumblr@2x.png);
+	}
+	
+	
+	/* AWARD ICONS */
+	
+	.thework_awards_thefwa_sotd {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__thefwa_sotd@2x.png);
+	}
+	
+	.thework_awards_awwwards_sotd {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__awwwards_sotd@2x.png);
+	}
+	
+	.thework_awards_awwwards_nominee {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__awwwards_nominee@2x.png);
+	}
+	
+	.thework_awards_csslounge_sotd {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__csslounge_sotd@2x.png);
+	}
+	
+	.thework_awards_csslounge_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__csslounge_featured@2x.png);
+	}
+	
+	.thework_awards_csswinner_sotd {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__csswinner_sotd@2x.png);
+	}
+	
+	.thework_awards_csswinner_nominee {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__csswinner_nominee@2x.png);
+	}
+	
+	.thework_awards_cssa_sotd {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__cssa_sotd@2x.png);
+	}
+	
+	.thework_awards_cssa_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__cssa_featured@2x.png);
+	}
+	
+	.thework_awards_cssa_nominee {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__cssa_nominee@2x.png);
+	}
+	
+	.thework_awards_cssda_sotd {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__cssda_sotd@2x.png);
+	}
+	
+	.thework_awards_cssda_nominee {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__cssda_nominee@2x.png);
+	}
+	
+	.thework_awards_designlicks_sotd {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__designlicks_sotd@2x.png);
+	}
+	
+	.thework_awards_designdelight_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__designdelight_featured@2x.png);
+	}
+	
+	.thework_awards_1stwebdesigner_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__1stwebdesigner_featured@2x.png);
+	}
+	
+	.thework_awards_foliospark_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__foliospark_featured@2x.png);
+	}
+	
+	.thework_awards_neuecss_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__neuecss_featured@2x.png);
+	}
+	
+	.thework_awards_webinspeer_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__webinspeer_featured@2x.png);
+	}
+	
+	.thework_awards_fdi_sotd {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__fdi_sotd@2x.png);
+	}
+	
+	.thework_awards_fdi_nominee {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__fdi_nominee@2x.png);
+	}
+	
+	.thework_awards_cssbrigit_nominee {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__cssbrigit_nominee@2x.png);
+	}
+	
+	.thework_awards_csslight_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__csslight_featured@2x.png);
+	}
+	
+	.thework_awards_csslight_fotd {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__csslight_fotd@2x.png);
+	}
+	
+	.thework_awards_tbd_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__tbd_featured@2x.png);
+	}
+	
+	.thework_awards_cssmania_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__cssmania_featured@2x.png);
+	}
+	
+	.thework_awards_cssreel_nominee {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__cssreel_nominee@2x.png);
+	}
+	
+	.thework_awards_cssreel_wotd {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__cssreel_wotd@2x.png);
+	}
+	
+	.thework_awards_noil_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__noil_featured@2x.png);
+	}
+	
+	.thework_awards_creativesden_featured {
+		-webkit-background-size: 59px 52px;
+		background-image: url(../images/award_icons__creativesden_featured@2x.png);
+	}
+}
