@@ -1,0 +1,1482 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g', 'yeoman' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/node_modules/npm/package.json
+6 verbose read json /usr/local/lib/node_modules/yeoman/package.json
+7 verbose cache add [ 'yeoman', '*' ]
+8 silly cache add name="yeoman" spec="*" args=["yeoman","*"]
+9 verbose parsed url { pathname: '*', path: '*', href: '*' }
+10 verbose addNamed [ 'yeoman', '*' ]
+11 verbose addNamed [ null, '' ]
+12 verbose from cache /usr/local/lib/node_modules/npm/package.json
+13 silly lockFile fd94f358-yeoman yeoman@*
+14 verbose lock yeoman@* /Users/hsuh01/.npm/fd94f358-yeoman.lock
+15 verbose read json /usr/local/lib/node_modules/npm/node_modules/abbrev/package.json
+16 verbose read json /usr/local/lib/node_modules/npm/node_modules/ansi/package.json
+17 verbose read json /usr/local/lib/node_modules/npm/node_modules/archy/package.json
+18 verbose read json /usr/local/lib/node_modules/npm/node_modules/block-stream/package.json
+19 verbose read json /usr/local/lib/node_modules/npm/node_modules/chownr/package.json
+20 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/package.json
+21 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/package.json
+22 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/package.json
+23 verbose read json /usr/local/lib/node_modules/npm/node_modules/graceful-fs/package.json
+24 verbose read json /usr/local/lib/node_modules/npm/node_modules/inherits/package.json
+25 verbose read json /usr/local/lib/node_modules/npm/node_modules/ini/package.json
+26 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/package.json
+27 verbose read json /usr/local/lib/node_modules/npm/node_modules/lockfile/package.json
+28 verbose read json /usr/local/lib/node_modules/npm/node_modules/lru-cache/package.json
+29 verbose read json /usr/local/lib/node_modules/npm/node_modules/minimatch/package.json
+30 verbose read json /usr/local/lib/node_modules/npm/node_modules/mkdirp/package.json
+31 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/package.json
+32 verbose read json /usr/local/lib/node_modules/npm/node_modules/nopt/package.json
+33 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/package.json
+34 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/package.json
+35 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmlog/package.json
+36 verbose read json /usr/local/lib/node_modules/npm/node_modules/once/package.json
+37 verbose read json /usr/local/lib/node_modules/npm/node_modules/opener/package.json
+38 verbose read json /usr/local/lib/node_modules/npm/node_modules/osenv/package.json
+39 verbose read json /usr/local/lib/node_modules/npm/node_modules/read/package.json
+40 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/package.json
+41 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/package.json
+42 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/package.json
+43 verbose read json /usr/local/lib/node_modules/npm/node_modules/retry/package.json
+44 verbose read json /usr/local/lib/node_modules/npm/node_modules/rimraf/package.json
+45 verbose read json /usr/local/lib/node_modules/npm/node_modules/semver/package.json
+46 verbose read json /usr/local/lib/node_modules/npm/node_modules/slide/package.json
+47 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/package.json
+48 verbose read json /usr/local/lib/node_modules/npm/node_modules/uid-number/package.json
+49 verbose read json /usr/local/lib/node_modules/npm/node_modules/which/package.json
+50 silly addNameRange { name: 'yeoman', range: '', hasData: false }
+51 verbose url raw yeoman
+52 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman' ]
+53 verbose url resolved https://registry.npmjs.org/yeoman
+54 info trying registry request attempt 1 at 15:14:51
+55 verbose etag "C2AFZO55L3MR9O1LBQ7DJVJX2"
+56 http GET https://registry.npmjs.org/yeoman
+57 verbose from cache /usr/local/lib/node_modules/npm/node_modules/semver/package.json
+58 verbose from cache /usr/local/lib/node_modules/npm/node_modules/ini/package.json
+59 verbose from cache /usr/local/lib/node_modules/npm/node_modules/slide/package.json
+60 verbose from cache /usr/local/lib/node_modules/npm/node_modules/abbrev/package.json
+61 verbose from cache /usr/local/lib/node_modules/npm/node_modules/graceful-fs/package.json
+62 verbose from cache /usr/local/lib/node_modules/npm/node_modules/minimatch/package.json
+63 verbose from cache /usr/local/lib/node_modules/npm/node_modules/nopt/package.json
+64 verbose from cache /usr/local/lib/node_modules/npm/node_modules/rimraf/package.json
+65 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/package.json
+66 verbose from cache /usr/local/lib/node_modules/npm/node_modules/which/package.json
+67 verbose from cache /usr/local/lib/node_modules/npm/node_modules/tar/package.json
+68 verbose from cache /usr/local/lib/node_modules/npm/node_modules/fstream/package.json
+69 verbose from cache /usr/local/lib/node_modules/npm/node_modules/block-stream/package.json
+70 verbose from cache /usr/local/lib/node_modules/npm/node_modules/inherits/package.json
+71 verbose from cache /usr/local/lib/node_modules/npm/node_modules/mkdirp/package.json
+72 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read/package.json
+73 verbose from cache /usr/local/lib/node_modules/npm/node_modules/lru-cache/package.json
+74 verbose from cache /usr/local/lib/node_modules/npm/node_modules/node-gyp/package.json
+75 verbose from cache /usr/local/lib/node_modules/npm/node_modules/fstream-npm/package.json
+76 verbose from cache /usr/local/lib/node_modules/npm/node_modules/uid-number/package.json
+77 verbose from cache /usr/local/lib/node_modules/npm/node_modules/archy/package.json
+78 verbose from cache /usr/local/lib/node_modules/npm/node_modules/chownr/package.json
+79 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmlog/package.json
+80 verbose from cache /usr/local/lib/node_modules/npm/node_modules/ansi/package.json
+81 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/package.json
+82 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read-package-json/package.json
+83 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read-installed/package.json
+84 verbose from cache /usr/local/lib/node_modules/npm/node_modules/glob/package.json
+85 verbose from cache /usr/local/lib/node_modules/npm/node_modules/init-package-json/package.json
+86 verbose from cache /usr/local/lib/node_modules/npm/node_modules/osenv/package.json
+87 verbose from cache /usr/local/lib/node_modules/npm/node_modules/lockfile/package.json
+88 verbose from cache /usr/local/lib/node_modules/npm/node_modules/retry/package.json
+89 verbose from cache /usr/local/lib/node_modules/npm/node_modules/once/package.json
+90 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmconf/package.json
+91 verbose from cache /usr/local/lib/node_modules/npm/node_modules/opener/package.json
+92 verbose read json /usr/local/lib/node_modules/npm/node_modules/read/node_modules/mute-stream/package.json
+93 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/package.json
+94 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/couch-login/package.json
+95 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard/package.json
+96 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/package.json
+97 verbose read json /usr/local/lib/node_modules/npm/node_modules/minimatch/node_modules/lru-cache/package.json
+98 verbose read json /usr/local/lib/node_modules/npm/node_modules/nopt/node_modules/abbrev/package.json
+99 verbose read json /usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/graceful-fs/package.json
+100 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/inherits/package.json
+101 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/block-stream/package.json
+102 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/fstream/package.json
+103 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/rimraf/package.json
+104 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/mkdirp/package.json
+105 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/graceful-fs/package.json
+106 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/inherits/package.json
+107 verbose read json /usr/local/lib/node_modules/npm/node_modules/block-stream/node_modules/inherits/package.json
+108 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read/node_modules/mute-stream/package.json
+109 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/glob/package.json
+110 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/graceful-fs/package.json
+111 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/fstream/package.json
+112 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/package.json
+113 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/mkdirp/package.json
+114 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/nopt/package.json
+115 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/package.json
+116 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/osenv/package.json
+117 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/request/package.json
+118 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/rimraf/package.json
+119 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/semver/package.json
+120 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/tar/package.json
+121 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/which/package.json
+122 verbose from cache /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/package.json
+123 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/inherits/package.json
+124 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/ansi/package.json
+125 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/request/package.json
+126 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/graceful-fs/package.json
+127 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/semver/package.json
+128 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/slide/package.json
+129 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/chownr/package.json
+130 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/mkdirp/package.json
+131 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/rimraf/package.json
+132 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/retry/package.json
+133 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/couch-login/package.json
+134 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/package.json
+135 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/package.json
+136 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/lru-cache/package.json
+137 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/semver/package.json
+138 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/slide/package.json
+139 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/npmlog/package.json
+140 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/graceful-fs/package.json
+141 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/semver/package.json
+142 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/slide/package.json
+143 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/read-package-json/package.json
+144 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/graceful-fs/package.json
+145 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/npmlog/package.json
+146 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/package.json
+147 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/graceful-fs/package.json
+148 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/inherits/package.json
+149 verbose from cache /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard/package.json
+150 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/read/package.json
+151 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/read-package-json/package.json
+152 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/semver/package.json
+153 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/package.json
+154 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/inherits/package.json
+155 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/once/package.json
+156 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/mkdirp/package.json
+157 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/osenv/package.json
+158 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/nopt/package.json
+159 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/package.json
+160 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/fstream/package.json
+161 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/inherits/package.json
+162 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/couch-login/node_modules/request/package.json
+163 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard/node_modules/read/package.json
+164 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/package.json
+165 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/package.json
+166 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/node_modules/ini/package.json
+167 http 200 https://registry.npmjs.org/yeoman
+168 silly registry.get cb [ 200,
+168 silly registry.get   { vary: 'Accept',
+168 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+168 silly registry.get     etag: '"72U79EQFEZ917IUADLTIXSCKQ"',
+168 silly registry.get     date: 'Wed, 27 Feb 2013 20:14:52 GMT',
+168 silly registry.get     'content-type': 'application/json',
+168 silly registry.get     'content-length': '36359' } ]
+169 silly addNameRange number 2 { name: 'yeoman', range: '', hasData: true }
+170 silly addNameRange versions [ 'yeoman',
+170 silly addNameRange   [ '0.0.1',
+170 silly addNameRange     '0.7.0',
+170 silly addNameRange     '0.7.1',
+170 silly addNameRange     '0.7.2',
+170 silly addNameRange     '0.7.3',
+170 silly addNameRange     '0.9.0',
+170 silly addNameRange     '0.9.1',
+170 silly addNameRange     '0.9.2',
+170 silly addNameRange     '0.9.3',
+170 silly addNameRange     '0.9.4',
+170 silly addNameRange     '0.9.5',
+170 silly addNameRange     '0.9.6' ] ]
+171 verbose addNamed [ 'yeoman', '0.9.6' ]
+172 verbose addNamed [ '0.9.6', '0.9.6' ]
+173 silly lockFile 72540a0c-yeoman-0-9-6 yeoman@0.9.6
+174 verbose lock yeoman@0.9.6 /Users/hsuh01/.npm/72540a0c-yeoman-0-9-6.lock
+175 verbose read json /Users/hsuh01/.npm/yeoman/0.9.6/package/package.json
+176 silly lockFile 72540a0c-yeoman-0-9-6 yeoman@0.9.6
+177 silly lockFile fd94f358-yeoman yeoman@*
+178 info outdated updating [ [ '/usr/local/lib', 'yeoman', '0.9.5', '0.9.6' ] ]
+179 verbose install where,what [ '/usr/local/lib', [ 'yeoman@0.9.6' ] ]
+180 verbose read json /usr/local/lib/package.json
+181 verbose read json /usr/local/lib/package.json
+182 verbose cache add [ 'yeoman@0.9.6', null ]
+183 silly cache add name=undefined spec="yeoman@0.9.6" args=["yeoman@0.9.6",null]
+184 verbose parsed url { pathname: 'yeoman@0.9.6',
+184 verbose parsed url   path: 'yeoman@0.9.6',
+184 verbose parsed url   href: 'yeoman@0.9.6' }
+185 silly cache add name="yeoman" spec="0.9.6" args=["yeoman","0.9.6"]
+186 verbose parsed url { pathname: '0.9.6', path: '0.9.6', href: '0.9.6' }
+187 verbose addNamed [ 'yeoman', '0.9.6' ]
+188 verbose addNamed [ '0.9.6', '0.9.6' ]
+189 silly lockFile 72540a0c-yeoman-0-9-6 yeoman@0.9.6
+190 verbose lock yeoman@0.9.6 /Users/hsuh01/.npm/72540a0c-yeoman-0-9-6.lock
+191 verbose url raw yeoman/0.9.6
+192 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman/0.9.6' ]
+193 verbose url resolved https://registry.npmjs.org/yeoman/0.9.6
+194 info trying registry request attempt 1 at 15:14:52
+195 verbose etag "C2AFZO55L3MR9O1LBQ7DJVJX2"
+196 http GET https://registry.npmjs.org/yeoman/0.9.6
+197 http 200 https://registry.npmjs.org/yeoman/0.9.6
+198 silly registry.get cb [ 200,
+198 silly registry.get   { vary: 'Accept',
+198 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+198 silly registry.get     etag: '"72U79EQFEZ917IUADLTIXSCKQ"',
+198 silly registry.get     date: 'Wed, 27 Feb 2013 20:14:52 GMT',
+198 silly registry.get     'content-type': 'application/json',
+198 silly registry.get     'content-length': '2765' } ]
+199 silly lockFile b1f1a287-pmjs-org-yeoman-yeoman-0-9-6-tgz https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz
+200 verbose lock https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz /Users/hsuh01/.npm/b1f1a287-pmjs-org-yeoman-yeoman-0-9-6-tgz.lock
+201 verbose addRemoteTarball [ 'https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz',
+201 verbose addRemoteTarball   '2e80fda9f0b2c77392798012dbb10f696e7c5c26' ]
+202 info retry fetch attempt 1 at 15:14:52
+203 verbose fetch to= /var/folders/2t/22v8y6zx6s7_mbr9vxcjxhc4b88bd3/T/npm-28702/1361996092438-0.37606141180731356/tmp.tgz
+204 http GET https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz
+205 http 200 https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz
+206 silly shasum updated bytes 40960
+207 silly shasum updated bytes 40960
+208 silly shasum updated bytes 40960
+209 silly shasum updated bytes 40960
+210 silly shasum updated bytes 40960
+211 silly shasum updated bytes 40960
+212 silly shasum updated bytes 40960
+213 silly shasum updated bytes 40960
+214 silly shasum updated bytes 40960
+215 silly shasum updated bytes 40960
+216 silly shasum updated bytes 40960
+217 silly shasum updated bytes 40960
+218 silly shasum updated bytes 40960
+219 silly shasum updated bytes 40960
+220 silly shasum updated bytes 40960
+221 silly shasum updated bytes 40960
+222 silly shasum updated bytes 40960
+223 silly shasum updated bytes 40960
+224 silly shasum updated bytes 40960
+225 silly shasum updated bytes 40960
+226 silly shasum updated bytes 40960
+227 silly shasum updated bytes 40960
+228 silly shasum updated bytes 40960
+229 silly shasum updated bytes 40960
+230 silly shasum updated bytes 40960
+231 silly shasum updated bytes 40960
+232 silly shasum updated bytes 40960
+233 silly shasum updated bytes 40960
+234 silly shasum updated bytes 40960
+235 silly shasum updated bytes 40960
+236 silly shasum updated bytes 40960
+237 silly shasum updated bytes 40960
+238 silly shasum updated bytes 40960
+239 silly shasum updated bytes 40960
+240 silly shasum updated bytes 40960
+241 silly shasum updated bytes 40960
+242 silly shasum updated bytes 40960
+243 silly shasum updated bytes 40960
+244 silly shasum updated bytes 40960
+245 silly shasum updated bytes 40960
+246 silly shasum updated bytes 40960
+247 silly shasum updated bytes 40960
+248 silly shasum updated bytes 40960
+249 silly shasum updated bytes 40960
+250 silly shasum updated bytes 40960
+251 silly shasum updated bytes 40960
+252 silly shasum updated bytes 40960
+253 silly shasum updated bytes 40960
+254 silly shasum updated bytes 40960
+255 silly shasum updated bytes 40960
+256 silly shasum updated bytes 40960
+257 silly shasum updated bytes 40960
+258 silly shasum updated bytes 40960
+259 silly shasum updated bytes 40960
+260 silly shasum updated bytes 40960
+261 silly shasum updated bytes 40960
+262 silly shasum updated bytes 17894
+263 info shasum 2e80fda9f0b2c77392798012dbb10f696e7c5c26
+263 info shasum /var/folders/2t/22v8y6zx6s7_mbr9vxcjxhc4b88bd3/T/npm-28702/1361996092438-0.37606141180731356/tmp.tgz
+264 verbose tar unpack /var/folders/2t/22v8y6zx6s7_mbr9vxcjxhc4b88bd3/T/npm-28702/1361996092438-0.37606141180731356/tmp.tgz
+265 silly lockFile 6e3556d4-2438-0-37606141180731356-package /var/folders/2t/22v8y6zx6s7_mbr9vxcjxhc4b88bd3/T/npm-28702/1361996092438-0.37606141180731356/package
+266 verbose lock /var/folders/2t/22v8y6zx6s7_mbr9vxcjxhc4b88bd3/T/npm-28702/1361996092438-0.37606141180731356/package /Users/hsuh01/.npm/6e3556d4-2438-0-37606141180731356-package.lock
+267 silly gunzTarPerm modes [ '755', '644' ]
+268 silly gunzTarPerm extractEntry package.json
+269 silly gunzTarPerm extractEntry Gruntfile.js
+270 silly gunzTarPerm extractEntry yeoman.js
+271 silly gunzTarPerm extractEntry doc/bower.md
+272 silly gunzTarPerm extractEntry doc/build.md
+273 silly gunzTarPerm extractEntry doc/faq.md
+274 silly gunzTarPerm extractEntry doc/folders.md
+275 silly gunzTarPerm extractEntry doc/gruntfile.md
+276 silly gunzTarPerm extractEntry doc/init.md
+277 silly gunzTarPerm extractEntry doc/insight.md
+278 silly gunzTarPerm extractEntry doc/server.md
+279 silly gunzTarPerm extractEntry doc/test.md
+280 silly gunzTarPerm extractEntry doc/yeoman.md
+281 silly gunzTarPerm extractEntry lib/plugins/insight.js
+282 silly gunzTarPerm extractEntry lib/plugins/updater.js
+283 silly gunzTarPerm extractEntry lib/support/confess.js
+284 silly gunzTarPerm extractEntry lib/support/confess.json
+285 silly gunzTarPerm extractEntry lib/utils/fetch.js
+286 silly gunzTarPerm extractEntry lib/utils/index.js
+287 silly gunzTarPerm extractEntry man/init.1
+288 silly gunzTarPerm extractEntry man/bower.1
+289 silly gunzTarPerm extractEntry man/faq.1
+290 silly gunzTarPerm extractEntry man/folders.1
+291 silly gunzTarPerm extractEntry man/gruntfile.1
+292 silly gunzTarPerm extractEntry man/build.1
+293 silly gunzTarPerm extractEntry man/insight.1
+294 silly gunzTarPerm extractEntry man/serve.1
+295 silly gunzTarPerm extractEntry man/server.1
+296 silly gunzTarPerm extractEntry man/test.1
+297 silly gunzTarPerm extractEntry man/yeoman.1
+298 silly gunzTarPerm extractEntry bin/help.txt
+299 silly gunzTarPerm extractEntry bin/yeoman
+300 silly gunzTarPerm extractEntry bin/yeomaninsight.py
+301 silly gunzTarPerm extractEntry readme.md
+302 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/package.json
+303 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/.npmignore
+304 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/Gruntfile.js
+305 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/.htaccess
+306 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/favicon.ico
+307 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/img/.npmignore
+308 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/img/destroy.png
+309 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/img/nyan.gif
+310 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/index.html
+311 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/hm.js
+312 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/main.js
+313 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/plugins.js
+314 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/Task.js
+315 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/TaskApp.js
+316 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/Tasks.js
+317 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/spineModule.js
+318 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/Task.coffee
+319 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/TaskApp.coffee
+320 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/Tasks.coffee
+321 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/jquery/jquery.js
+322 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/jquery/component.json
+323 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/package.json
+324 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/.npmignore
+325 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/README.md
+326 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/LICENSE
+327 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/index.js
+328 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/Cakefile
+329 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/component.json
+330 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/ajax.js
+331 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/list.js
+332 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/local.js
+333 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/manager.js
+334 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/relation.js
+335 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/route.js
+336 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/spine.js
+337 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/ajax.coffee
+338 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/list.coffee
+339 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/local.coffee
+340 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/manager.coffee
+341 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/relation.coffee
+342 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/route.coffee
+343 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/spine.coffee
+344 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/ajax.html
+345 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/index.html
+346 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jasmine.html.js
+347 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jasmine.js
+348 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jquery.js
+349 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jasmine.css
+350 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/MIT.LICENSE
+351 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/manager.html
+352 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/route.html
+353 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/ajax.js
+354 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/class.js
+355 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/controller.js
+356 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/events.js
+357 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/manager.js
+358 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/model.js
+359 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/model.local.js
+360 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/model.relation.js
+361 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/route.js
+362 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/hm/fun.hm
+363 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/hm/nyan.hm
+364 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/README.md
+365 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/cs.js
+366 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/jquery.tmpl.js
+367 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/json2.js
+368 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/modernizr-2.5.3.min.js
+369 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/require.js
+370 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/underscore.js
+371 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/.jshintrc
+372 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-alert.js
+373 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-carousel.js
+374 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-collapse.js
+375 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-dropdown.js
+376 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-modal.js
+377 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-button.js
+378 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-scrollspy.js
+379 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-tab.js
+380 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-tooltip.js
+381 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-transition.js
+382 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-typeahead.js
+383 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-popover.js
+384 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/speakWorker.js
+385 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/speakGenerator.js
+386 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/demo.html
+387 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ka_rules
+388 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/af_list
+389 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ca_list
+390 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ca_rules
+391 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cs_list
+392 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cs_rules
+393 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cy_list
+394 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cy_rules
+395 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/da_extra
+396 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/da_list
+397 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/da_rules
+398 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/de_list
+399 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/de_rules
+400 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/dict_log
+401 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/dict_phonemes
+402 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/el_list
+403 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/el_rules
+404 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/en_list
+405 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/en_rules
+406 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/eo_list
+407 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/eo_rules
+408 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/es_list
+409 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/es_rules
+410 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fi_list
+411 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fi_rules
+412 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fr_list
+413 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fr_rules
+414 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/grc_list
+415 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/grc_rules
+416 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hbs_list
+417 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hbs_rules
+418 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hi_list
+419 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hi_rules
+420 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hu_list
+421 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hu_rules
+422 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hy_list
+423 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hy_rules
+424 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/id_list
+425 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/id_rules
+426 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/is_list
+427 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/is_rules
+428 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/it_list
+429 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/it_listx
+430 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/it_rules
+431 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/jbo_list
+432 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/jbo_rules
+433 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ka_list
+434 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/af_rules
+435 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/kn_list
+436 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/kn_rules
+437 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ku_list
+438 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ku_rules
+439 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/la_list
+440 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/la_rules
+441 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/lv_list
+442 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/lv_rules
+443 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/mk_list
+444 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/mk_rules
+445 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ml_list
+446 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ml_rules
+447 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nci_list
+448 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nci_rules
+449 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nl_list
+450 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nl_rules
+451 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/no_list
+452 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/no_rules
+453 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pap_list
+454 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pap_rules
+455 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pl_list
+456 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pl_rules
+457 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pt_list
+458 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pt_rules
+459 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ReadMe
+460 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ro_list
+461 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ro_rules
+462 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ru_list
+463 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ru_rules
+464 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sk_list
+465 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sk_rules
+466 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sq_list
+467 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sq_rules
+468 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sv_list
+469 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sv_rules
+470 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sw_list
+471 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sw_rules
+472 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ta_list
+473 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ta_rules
+474 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/tr_list
+475 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/tr_rules
+476 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/vi_list
+477 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/vi_rules
+478 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/zh_list
+479 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/zh_rules
+480 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/zhy_rules
+481 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/la_dict
+482 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/af_dict
+483 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/config
+484 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/cs_dict
+485 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/cy_dict
+486 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/da_dict
+487 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/de_dict
+488 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/el_dict
+489 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/en_dict
+490 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/eo_dict
+491 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/es_dict
+492 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/fi_dict
+493 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/fr_dict
+494 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/grc_dict
+495 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hbs_dict
+496 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hi_dict
+497 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hu_dict
+498 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hy_dict
+499 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/id_dict
+500 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/intonations
+501 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/is_dict
+502 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/it_dict
+503 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/jbo_dict
+504 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ka_dict
+505 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/kn_dict
+506 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ku_dict
+507 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ca_dict
+508 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/lv_dict
+509 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/in1_phtrans
+510 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/af1_phtrans
+511 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/cr1_phtrans
+512 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/cs_phtrans
+513 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/de2_phtrans
+514 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/de4_phtrans
+515 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/de6_phtrans
+516 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/en1_phtrans
+517 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/es_phtrans
+518 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/fr1_phtrans
+519 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/gr2_phtrans
+520 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/grc-de6_phtrans
+521 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/hu1_phtrans
+522 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ic1_phtrans
+523 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/id1_phtrans
+524 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ca1_phtrans
+525 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/it3_phtrans
+526 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/la1_phtrans
+527 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/nl_phtrans
+528 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/pl1_phtrans
+529 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/pt1_phtrans
+530 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/pt_phtrans
+531 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ptbr4_phtrans
+532 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ptbr_phtrans
+533 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ro1_phtrans
+534 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/sv2_phtrans
+535 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/sv_phtrans
+536 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/tr1_phtrans
+537 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/us3_phtrans
+538 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/us_phtrans
+539 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mk_dict
+540 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ml_dict
+541 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/nci_dict
+542 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/nl_dict
+543 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/no_dict
+544 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/pap_dict
+545 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/phondata
+546 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/phonindex
+547 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/phontab
+548 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/pl_dict
+549 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/pt_dict
+550 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ro_dict
+551 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ru_dict
+552 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sk_dict
+553 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sq_dict
+554 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sv_dict
+555 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sw_dict
+556 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ta_dict
+557 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/tr_dict
+558 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/vi_dict
+559 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ka
+560 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m1
+561 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/croak
+562 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f2
+563 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f3
+564 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f4
+565 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f5
+566 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/klatt
+567 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/klatt2
+568 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/klatt3
+569 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f1
+570 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m2
+571 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m3
+572 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m4
+573 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m5
+574 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m6
+575 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m7
+576 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/whisper
+577 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/whisperf
+578 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/bs
+579 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ca
+580 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/cs
+581 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/cy
+582 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/da
+583 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/de
+584 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/default
+585 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/el
+586 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en
+587 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-n
+588 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-rp
+589 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-sc
+590 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-us
+591 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-wi
+592 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-wm
+593 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/eo
+594 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/es
+595 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/es-la
+596 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/fi
+597 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/fr
+598 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/fr-be
+599 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hi
+600 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hr
+601 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hu
+602 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hy
+603 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hy-west
+604 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/id
+605 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/is
+606 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/it
+607 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/af
+608 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/kn
+609 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ku
+610 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/la
+611 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/lv
+612 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-gr2-en
+613 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-af1
+614 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-br1
+615 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-br3
+616 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-br4
+617 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-cr1
+618 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-cz2
+619 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de2
+620 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de4
+621 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de4-en
+622 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de5
+623 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de5-en
+624 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de6
+625 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de6-grc
+626 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de7
+627 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-en1
+628 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-es1
+629 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-es2
+630 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr1
+631 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr1-en
+632 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr4
+633 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr4-en
+634 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-gr2
+635 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-af1-en
+636 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-hu1
+637 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-hu1-en
+638 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-ic1
+639 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-id1
+640 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-it3
+641 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-it4
+642 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-la1
+643 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-nl2
+644 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-nl2-en
+645 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-pl1
+646 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-pl1-en
+647 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-pt1
+648 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-ro1
+649 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-ro1-en
+650 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw1
+651 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw1-en
+652 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw2
+653 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw2-en
+654 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-tr1
+655 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-tr2
+656 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-us1
+657 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-us2
+658 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-us3
+659 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mk
+660 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ml
+661 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/nl
+662 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/no
+663 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/pl
+664 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/pt
+665 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/pt-pt
+666 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ro
+667 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ru
+668 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sk
+669 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sq
+670 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sr
+671 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sv
+672 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sw
+673 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ta
+674 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/grc
+675 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/jbo
+676 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/nci
+677 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/pap
+678 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/tr
+679 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/vi
+680 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/zh
+681 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/zh-yue
+682 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/zh_dict
+683 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/zhy_dict
+684 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/helloworld.html
+685 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/ChangeLog.txt
+686 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/ReadMe
+687 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/README.markdown
+688 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/speakClient.hm
+689 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/AUTHORS
+690 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/License.txt
+691 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/_compass_twitter_bootstrap.sass
+692 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/_compass_twitter_bootstrap_awesome.sass
+693 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/_compass_twitter_bootstrap_responsive.sass
+694 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_navs.sass
+695 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_accordion.sass
+696 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_breadcrumbs.sass
+697 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_button-groups.sass
+698 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_buttons.sass
+699 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_carousel.sass
+700 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_close.sass
+701 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_code.sass
+702 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_component-animations.sass
+703 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_dropdowns.sass
+704 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_font-awesome.sass
+705 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_forms.sass
+706 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_grid.sass
+707 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_hero-unit.sass
+708 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_labels-badges.sass
+709 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_layouts.sass
+710 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_mixins.sass
+711 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_modals.sass
+712 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_navbar.sass
+713 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_alerts.sass
+714 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_pager.sass
+715 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_pagination.sass
+716 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_popovers.sass
+717 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_progress-bars.sass
+718 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_reset.sass
+719 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-1200px-min.sass
+720 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-767px-max.sass
+721 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-768px-979px.sass
+722 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-navbar.sass
+723 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-utilities.sass
+724 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_scaffolding.sass
+725 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_sprites.sass
+726 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_tables.sass
+727 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_thumbnails.sass
+728 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_tooltip.sass
+729 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_type.sass
+730 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_utilities.sass
+731 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_variables.sass
+732 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_wells.sass
+733 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/style.css
+734 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/config.rb
+735 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/index.html
+736 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/jasmine-html.js
+737 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/jasmine.js
+738 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/jasmine.css
+739 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/MIT.LICENSE
+740 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/runner/headless.js
+741 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/runner/html.js
+742 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/spec/introduction.js
+743 silly gunzTarPerm extractEntry scripts/docs-build
+744 silly gunzTarPerm extractEntry scripts/pre-commit
+745 silly gunzTarPerm extractEntry tasks/bower.js
+746 silly gunzTarPerm extractEntry tasks/html.js
+747 silly gunzTarPerm extractEntry tasks/img.js
+748 silly gunzTarPerm extractEntry tasks/usemin.js
+749 silly gunzTarPerm extractEntry tasks/css.js
+750 silly gunzTarPerm extractEntry tasks/compass.js
+751 silly gunzTarPerm extractEntry tasks/misc.js
+752 silly gunzTarPerm extractEntry tasks/rev.js
+753 silly gunzTarPerm extractEntry tasks/rjs.js
+754 silly gunzTarPerm extractEntry tasks/server.js
+755 silly gunzTarPerm extractEntry tasks/tar.js
+756 silly gunzTarPerm extractEntry tasks/yeoman.js
+757 silly gunzTarPerm extractEntry tasks/manifest.js
+758 silly gunzTarPerm extractEntry tasks/livereload/livereload.js
+759 silly gunzTarPerm extractEntry tasks/init/yeoman.js
+760 silly gunzTarPerm extractEntry test/test-bower.js
+761 silly gunzTarPerm extractEntry test/test-build.js
+762 silly gunzTarPerm extractEntry test/test-usemin.js
+763 silly gunzTarPerm extractEntry test/fixtures/usemin.html
+764 silly gunzTarPerm extractEntry test/helpers/index.js
+765 silly gunzTarPerm extractEntry test/helpers/runnable.js
+766 silly gunzTarPerm extractEntry test/mocha.opts
+767 silly gunzTarPerm extractEntry test/test-insight.py
+768 silly gunzTarPerm extractEntry .jshintrc
+769 verbose read json /var/folders/2t/22v8y6zx6s7_mbr9vxcjxhc4b88bd3/T/npm-28702/1361996092438-0.37606141180731356/package/package.json
+770 silly lockFile 6e3556d4-2438-0-37606141180731356-package /var/folders/2t/22v8y6zx6s7_mbr9vxcjxhc4b88bd3/T/npm-28702/1361996092438-0.37606141180731356/package
+771 verbose from cache /var/folders/2t/22v8y6zx6s7_mbr9vxcjxhc4b88bd3/T/npm-28702/1361996092438-0.37606141180731356/package/package.json
+772 verbose tar pack [ '/Users/hsuh01/.npm/yeoman/0.9.6/package.tgz',
+772 verbose tar pack   '/var/folders/2t/22v8y6zx6s7_mbr9vxcjxhc4b88bd3/T/npm-28702/1361996092438-0.37606141180731356/package' ]
+773 verbose tarball /Users/hsuh01/.npm/yeoman/0.9.6/package.tgz
+774 verbose folder /var/folders/2t/22v8y6zx6s7_mbr9vxcjxhc4b88bd3/T/npm-28702/1361996092438-0.37606141180731356/package
+775 silly lockFile e69a2f71-h01-npm-yeoman-0-9-6-package-tgz /Users/hsuh01/.npm/yeoman/0.9.6/package.tgz
+776 verbose lock /Users/hsuh01/.npm/yeoman/0.9.6/package.tgz /Users/hsuh01/.npm/e69a2f71-h01-npm-yeoman-0-9-6-package-tgz.lock
+777 silly lockFile e69a2f71-h01-npm-yeoman-0-9-6-package-tgz /Users/hsuh01/.npm/yeoman/0.9.6/package.tgz
+778 silly lockFile 3ac1027f--hsuh01-npm-yeoman-0-9-6-package /Users/hsuh01/.npm/yeoman/0.9.6/package
+779 verbose lock /Users/hsuh01/.npm/yeoman/0.9.6/package /Users/hsuh01/.npm/3ac1027f--hsuh01-npm-yeoman-0-9-6-package.lock
+780 silly lockFile 3ac1027f--hsuh01-npm-yeoman-0-9-6-package /Users/hsuh01/.npm/yeoman/0.9.6/package
+781 verbose tar unpack /Users/hsuh01/.npm/yeoman/0.9.6/package.tgz
+782 silly lockFile 3ac1027f--hsuh01-npm-yeoman-0-9-6-package /Users/hsuh01/.npm/yeoman/0.9.6/package
+783 verbose lock /Users/hsuh01/.npm/yeoman/0.9.6/package /Users/hsuh01/.npm/3ac1027f--hsuh01-npm-yeoman-0-9-6-package.lock
+784 silly gunzTarPerm modes [ '755', '644' ]
+785 silly gunzTarPerm extractEntry package.json
+786 silly gunzTarPerm extractEntry Gruntfile.js
+787 silly gunzTarPerm extractEntry yeoman.js
+788 silly gunzTarPerm extractEntry doc/bower.md
+789 silly gunzTarPerm extractEntry doc/build.md
+790 silly gunzTarPerm extractEntry doc/faq.md
+791 silly gunzTarPerm extractEntry doc/folders.md
+792 silly gunzTarPerm extractEntry doc/gruntfile.md
+793 silly gunzTarPerm extractEntry doc/init.md
+794 silly gunzTarPerm extractEntry doc/insight.md
+795 silly gunzTarPerm extractEntry doc/server.md
+796 silly gunzTarPerm extractEntry doc/test.md
+797 silly gunzTarPerm extractEntry doc/yeoman.md
+798 silly gunzTarPerm extractEntry lib/plugins/insight.js
+799 silly gunzTarPerm extractEntry lib/plugins/updater.js
+800 silly gunzTarPerm extractEntry lib/support/confess.js
+801 silly gunzTarPerm extractEntry lib/support/confess.json
+802 silly gunzTarPerm extractEntry lib/utils/fetch.js
+803 silly gunzTarPerm extractEntry lib/utils/index.js
+804 silly gunzTarPerm extractEntry man/init.1
+805 silly gunzTarPerm extractEntry man/bower.1
+806 silly gunzTarPerm extractEntry man/faq.1
+807 silly gunzTarPerm extractEntry man/folders.1
+808 silly gunzTarPerm extractEntry man/gruntfile.1
+809 silly gunzTarPerm extractEntry man/build.1
+810 silly gunzTarPerm extractEntry man/insight.1
+811 silly gunzTarPerm extractEntry man/serve.1
+812 silly gunzTarPerm extractEntry man/server.1
+813 silly gunzTarPerm extractEntry man/test.1
+814 silly gunzTarPerm extractEntry man/yeoman.1
+815 silly gunzTarPerm extractEntry bin/help.txt
+816 silly gunzTarPerm extractEntry bin/yeoman
+817 silly gunzTarPerm extractEntry bin/yeomaninsight.py
+818 silly gunzTarPerm extractEntry readme.md
+819 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/package.json
+820 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/.npmignore
+821 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/Gruntfile.js
+822 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/.htaccess
+823 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/favicon.ico
+824 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/img/.npmignore
+825 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/img/destroy.png
+826 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/img/nyan.gif
+827 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/index.html
+828 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/hm.js
+829 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/main.js
+830 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/plugins.js
+831 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/Task.js
+832 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/TaskApp.js
+833 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/Tasks.js
+834 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/spineModule.js
+835 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/Task.coffee
+836 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/TaskApp.coffee
+837 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/Tasks.coffee
+838 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/jquery/jquery.js
+839 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/jquery/component.json
+840 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/package.json
+841 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/.npmignore
+842 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/README.md
+843 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/LICENSE
+844 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/index.js
+845 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/Cakefile
+846 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/component.json
+847 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/ajax.js
+848 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/list.js
+849 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/local.js
+850 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/manager.js
+851 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/relation.js
+852 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/route.js
+853 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/spine.js
+854 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/ajax.coffee
+855 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/list.coffee
+856 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/local.coffee
+857 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/manager.coffee
+858 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/relation.coffee
+859 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/route.coffee
+860 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/spine.coffee
+861 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/ajax.html
+862 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/index.html
+863 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jasmine.html.js
+864 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jasmine.js
+865 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jquery.js
+866 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jasmine.css
+867 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/MIT.LICENSE
+868 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/manager.html
+869 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/route.html
+870 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/ajax.js
+871 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/class.js
+872 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/controller.js
+873 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/events.js
+874 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/manager.js
+875 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/model.js
+876 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/model.local.js
+877 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/model.relation.js
+878 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/route.js
+879 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/hm/fun.hm
+880 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/hm/nyan.hm
+881 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/README.md
+882 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/cs.js
+883 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/jquery.tmpl.js
+884 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/json2.js
+885 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/modernizr-2.5.3.min.js
+886 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/require.js
+887 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/underscore.js
+888 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/.jshintrc
+889 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-alert.js
+890 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-carousel.js
+891 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-collapse.js
+892 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-dropdown.js
+893 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-modal.js
+894 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-button.js
+895 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-scrollspy.js
+896 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-tab.js
+897 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-tooltip.js
+898 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-transition.js
+899 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-typeahead.js
+900 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-popover.js
+901 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/speakWorker.js
+902 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/speakGenerator.js
+903 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/demo.html
+904 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ka_rules
+905 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/af_list
+906 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ca_list
+907 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ca_rules
+908 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cs_list
+909 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cs_rules
+910 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cy_list
+911 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cy_rules
+912 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/da_extra
+913 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/da_list
+914 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/da_rules
+915 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/de_list
+916 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/de_rules
+917 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/dict_log
+918 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/dict_phonemes
+919 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/el_list
+920 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/el_rules
+921 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/en_list
+922 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/en_rules
+923 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/eo_list
+924 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/eo_rules
+925 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/es_list
+926 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/es_rules
+927 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fi_list
+928 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fi_rules
+929 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fr_list
+930 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fr_rules
+931 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/grc_list
+932 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/grc_rules
+933 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hbs_list
+934 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hbs_rules
+935 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hi_list
+936 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hi_rules
+937 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hu_list
+938 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hu_rules
+939 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hy_list
+940 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hy_rules
+941 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/id_list
+942 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/id_rules
+943 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/is_list
+944 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/is_rules
+945 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/it_list
+946 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/it_listx
+947 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/it_rules
+948 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/jbo_list
+949 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/jbo_rules
+950 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ka_list
+951 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/af_rules
+952 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/kn_list
+953 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/kn_rules
+954 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ku_list
+955 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ku_rules
+956 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/la_list
+957 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/la_rules
+958 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/lv_list
+959 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/lv_rules
+960 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/mk_list
+961 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/mk_rules
+962 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ml_list
+963 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ml_rules
+964 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nci_list
+965 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nci_rules
+966 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nl_list
+967 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nl_rules
+968 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/no_list
+969 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/no_rules
+970 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pap_list
+971 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pap_rules
+972 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pl_list
+973 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pl_rules
+974 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pt_list
+975 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pt_rules
+976 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ReadMe
+977 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ro_list
+978 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ro_rules
+979 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ru_list
+980 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ru_rules
+981 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sk_list
+982 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sk_rules
+983 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sq_list
+984 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sq_rules
+985 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sv_list
+986 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sv_rules
+987 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sw_list
+988 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sw_rules
+989 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ta_list
+990 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ta_rules
+991 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/tr_list
+992 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/tr_rules
+993 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/vi_list
+994 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/vi_rules
+995 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/zh_list
+996 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/zh_rules
+997 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/zhy_rules
+998 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/la_dict
+999 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/af_dict
+1000 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/config
+1001 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/cs_dict
+1002 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/cy_dict
+1003 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/da_dict
+1004 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/de_dict
+1005 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/el_dict
+1006 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/en_dict
+1007 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/eo_dict
+1008 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/es_dict
+1009 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/fi_dict
+1010 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/fr_dict
+1011 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/grc_dict
+1012 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hbs_dict
+1013 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hi_dict
+1014 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hu_dict
+1015 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hy_dict
+1016 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/id_dict
+1017 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/intonations
+1018 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/is_dict
+1019 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/it_dict
+1020 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/jbo_dict
+1021 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ka_dict
+1022 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/kn_dict
+1023 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ku_dict
+1024 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ca_dict
+1025 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/lv_dict
+1026 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/in1_phtrans
+1027 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/af1_phtrans
+1028 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/cr1_phtrans
+1029 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/cs_phtrans
+1030 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/de2_phtrans
+1031 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/de4_phtrans
+1032 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/de6_phtrans
+1033 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/en1_phtrans
+1034 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/es_phtrans
+1035 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/fr1_phtrans
+1036 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/gr2_phtrans
+1037 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/grc-de6_phtrans
+1038 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/hu1_phtrans
+1039 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ic1_phtrans
+1040 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/id1_phtrans
+1041 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ca1_phtrans
+1042 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/it3_phtrans
+1043 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/la1_phtrans
+1044 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/nl_phtrans
+1045 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/pl1_phtrans
+1046 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/pt1_phtrans
+1047 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/pt_phtrans
+1048 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ptbr4_phtrans
+1049 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ptbr_phtrans
+1050 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ro1_phtrans
+1051 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/sv2_phtrans
+1052 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/sv_phtrans
+1053 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/tr1_phtrans
+1054 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/us3_phtrans
+1055 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/us_phtrans
+1056 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mk_dict
+1057 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ml_dict
+1058 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/nci_dict
+1059 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/nl_dict
+1060 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/no_dict
+1061 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/pap_dict
+1062 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/phondata
+1063 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/phonindex
+1064 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/phontab
+1065 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/pl_dict
+1066 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/pt_dict
+1067 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ro_dict
+1068 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ru_dict
+1069 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sk_dict
+1070 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sq_dict
+1071 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sv_dict
+1072 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sw_dict
+1073 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ta_dict
+1074 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/tr_dict
+1075 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/vi_dict
+1076 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ka
+1077 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m1
+1078 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/croak
+1079 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f2
+1080 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f3
+1081 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f4
+1082 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f5
+1083 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/klatt
+1084 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/klatt2
+1085 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/klatt3
+1086 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f1
+1087 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m2
+1088 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m3
+1089 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m4
+1090 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m5
+1091 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m6
+1092 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m7
+1093 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/whisper
+1094 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/whisperf
+1095 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/bs
+1096 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ca
+1097 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/cs
+1098 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/cy
+1099 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/da
+1100 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/de
+1101 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/default
+1102 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/el
+1103 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en
+1104 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-n
+1105 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-rp
+1106 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-sc
+1107 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-us
+1108 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-wi
+1109 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-wm
+1110 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/eo
+1111 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/es
+1112 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/es-la
+1113 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/fi
+1114 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/fr
+1115 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/fr-be
+1116 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hi
+1117 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hr
+1118 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hu
+1119 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hy
+1120 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hy-west
+1121 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/id
+1122 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/is
+1123 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/it
+1124 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/af
+1125 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/kn
+1126 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ku
+1127 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/la
+1128 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/lv
+1129 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-gr2-en
+1130 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-af1
+1131 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-br1
+1132 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-br3
+1133 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-br4
+1134 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-cr1
+1135 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-cz2
+1136 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de2
+1137 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de4
+1138 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de4-en
+1139 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de5
+1140 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de5-en
+1141 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de6
+1142 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de6-grc
+1143 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de7
+1144 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-en1
+1145 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-es1
+1146 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-es2
+1147 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr1
+1148 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr1-en
+1149 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr4
+1150 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr4-en
+1151 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-gr2
+1152 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-af1-en
+1153 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-hu1
+1154 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-hu1-en
+1155 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-ic1
+1156 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-id1
+1157 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-it3
+1158 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-it4
+1159 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-la1
+1160 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-nl2
+1161 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-nl2-en
+1162 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-pl1
+1163 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-pl1-en
+1164 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-pt1
+1165 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-ro1
+1166 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-ro1-en
+1167 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw1
+1168 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw1-en
+1169 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw2
+1170 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw2-en
+1171 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-tr1
+1172 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-tr2
+1173 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-us1
+1174 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-us2
+1175 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-us3
+1176 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mk
+1177 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ml
+1178 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/nl
+1179 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/no
+1180 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/pl
+1181 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/pt
+1182 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/pt-pt
+1183 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ro
+1184 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ru
+1185 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sk
+1186 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sq
+1187 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sr
+1188 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sv
+1189 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sw
+1190 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ta
+1191 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/grc
+1192 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/jbo
+1193 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/nci
+1194 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/pap
+1195 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/tr
+1196 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/vi
+1197 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/zh
+1198 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/zh-yue
+1199 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/zh_dict
+1200 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/zhy_dict
+1201 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/helloworld.html
+1202 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/ChangeLog.txt
+1203 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/ReadMe
+1204 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/README.markdown
+1205 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/speakClient.hm
+1206 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/AUTHORS
+1207 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/License.txt
+1208 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/_compass_twitter_bootstrap.sass
+1209 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/_compass_twitter_bootstrap_awesome.sass
+1210 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/_compass_twitter_bootstrap_responsive.sass
+1211 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_navs.sass
+1212 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_accordion.sass
+1213 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_breadcrumbs.sass
+1214 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_button-groups.sass
+1215 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_buttons.sass
+1216 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_carousel.sass
+1217 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_close.sass
+1218 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_code.sass
+1219 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_component-animations.sass
+1220 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_dropdowns.sass
+1221 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_font-awesome.sass
+1222 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_forms.sass
+1223 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_grid.sass
+1224 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_hero-unit.sass
+1225 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_labels-badges.sass
+1226 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_layouts.sass
+1227 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_mixins.sass
+1228 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_modals.sass
+1229 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_navbar.sass
+1230 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_alerts.sass
+1231 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_pager.sass
+1232 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_pagination.sass
+1233 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_popovers.sass
+1234 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_progress-bars.sass
+1235 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_reset.sass
+1236 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-1200px-min.sass
+1237 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-767px-max.sass
+1238 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-768px-979px.sass
+1239 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-navbar.sass
+1240 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-utilities.sass
+1241 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_scaffolding.sass
+1242 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_sprites.sass
+1243 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_tables.sass
+1244 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_thumbnails.sass
+1245 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_tooltip.sass
+1246 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_type.sass
+1247 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_utilities.sass
+1248 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_variables.sass
+1249 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_wells.sass
+1250 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/style.css
+1251 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/config.rb
+1252 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/index.html
+1253 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/jasmine-html.js
+1254 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/jasmine.js
+1255 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/jasmine.css
+1256 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/MIT.LICENSE
+1257 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/runner/headless.js
+1258 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/runner/html.js
+1259 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/spec/introduction.js
+1260 silly gunzTarPerm extractEntry scripts/docs-build
+1261 silly gunzTarPerm extractEntry scripts/pre-commit
+1262 silly gunzTarPerm extractEntry tasks/bower.js
+1263 silly gunzTarPerm extractEntry tasks/html.js
+1264 silly gunzTarPerm extractEntry tasks/img.js
+1265 silly gunzTarPerm extractEntry tasks/usemin.js
+1266 silly gunzTarPerm extractEntry tasks/css.js
+1267 silly gunzTarPerm extractEntry tasks/compass.js
+1268 silly gunzTarPerm extractEntry tasks/misc.js
+1269 silly gunzTarPerm extractEntry tasks/rev.js
+1270 silly gunzTarPerm extractEntry tasks/rjs.js
+1271 silly gunzTarPerm extractEntry tasks/server.js
+1272 silly gunzTarPerm extractEntry tasks/tar.js
+1273 silly gunzTarPerm extractEntry tasks/yeoman.js
+1274 silly gunzTarPerm extractEntry tasks/manifest.js
+1275 silly gunzTarPerm extractEntry tasks/livereload/livereload.js
+1276 silly gunzTarPerm extractEntry tasks/init/yeoman.js
+1277 silly gunzTarPerm extractEntry test/test-bower.js
+1278 silly gunzTarPerm extractEntry test/test-build.js
+1279 silly gunzTarPerm extractEntry test/test-usemin.js
+1280 silly gunzTarPerm extractEntry test/fixtures/usemin.html
+1281 silly gunzTarPerm extractEntry test/helpers/index.js
+1282 silly gunzTarPerm extractEntry test/helpers/runnable.js
+1283 silly gunzTarPerm extractEntry test/mocha.opts
+1284 silly gunzTarPerm extractEntry test/test-insight.py
+1285 silly gunzTarPerm extractEntry .jshintrc
+1286 verbose from cache /Users/hsuh01/.npm/yeoman/0.9.6/package/package.json
+1287 silly lockFile 3ac1027f--hsuh01-npm-yeoman-0-9-6-package /Users/hsuh01/.npm/yeoman/0.9.6/package
+1288 silly shasum updated bytes 40960
+1289 silly shasum updated bytes 40960
+1290 silly shasum updated bytes 40960
+1291 silly shasum updated bytes 40960
+1292 silly shasum updated bytes 40960
+1293 silly shasum updated bytes 40960
+1294 silly shasum updated bytes 40960
+1295 silly shasum updated bytes 40960
+1296 silly shasum updated bytes 40960
+1297 silly shasum updated bytes 40960
+1298 silly shasum updated bytes 40960
+1299 silly shasum updated bytes 40960
+1300 silly shasum updated bytes 40960
+1301 silly shasum updated bytes 40960
+1302 silly shasum updated bytes 40960
+1303 silly shasum updated bytes 40960
+1304 silly shasum updated bytes 40960
+1305 silly shasum updated bytes 40960
+1306 silly shasum updated bytes 40960
+1307 silly shasum updated bytes 40960
+1308 silly shasum updated bytes 40960
+1309 silly shasum updated bytes 40960
+1310 silly shasum updated bytes 40960
+1311 silly shasum updated bytes 40960
+1312 silly shasum updated bytes 40960
+1313 silly shasum updated bytes 40960
+1314 silly shasum updated bytes 40960
+1315 silly shasum updated bytes 40960
+1316 silly shasum updated bytes 40960
+1317 silly shasum updated bytes 40960
+1318 silly shasum updated bytes 40960
+1319 silly shasum updated bytes 40960
+1320 silly shasum updated bytes 40960
+1321 silly shasum updated bytes 40960
+1322 silly shasum updated bytes 40960
+1323 silly shasum updated bytes 40960
+1324 silly shasum updated bytes 40960
+1325 silly shasum updated bytes 40960
+1326 silly shasum updated bytes 40960
+1327 silly shasum updated bytes 40960
+1328 silly shasum updated bytes 40960
+1329 silly shasum updated bytes 40960
+1330 silly shasum updated bytes 40960
+1331 silly shasum updated bytes 40960
+1332 silly shasum updated bytes 40960
+1333 silly shasum updated bytes 40960
+1334 silly shasum updated bytes 40960
+1335 silly shasum updated bytes 40960
+1336 silly shasum updated bytes 40960
+1337 silly shasum updated bytes 40960
+1338 silly shasum updated bytes 40960
+1339 silly shasum updated bytes 40960
+1340 silly shasum updated bytes 40960
+1341 silly shasum updated bytes 40960
+1342 silly shasum updated bytes 40960
+1343 silly shasum updated bytes 40960
+1344 silly shasum updated bytes 40960
+1345 silly shasum updated bytes 29622
+1346 info shasum 1ccede5c41a848c2a3d9ed5f89dc3bc779dabe8d
+1346 info shasum /Users/hsuh01/.npm/yeoman/0.9.6/package.tgz
+1347 verbose from cache /Users/hsuh01/.npm/yeoman/0.9.6/package/package.json
+1348 verbose chmod /Users/hsuh01/.npm/yeoman/0.9.6/package.tgz 644
+1349 verbose chown /Users/hsuh01/.npm/yeoman/0.9.6/package.tgz [ 377761187, 1961289889 ]
+1350 silly lockFile b1f1a287-pmjs-org-yeoman-yeoman-0-9-6-tgz https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz
+1351 silly lockFile 72540a0c-yeoman-0-9-6 yeoman@0.9.6
+1352 silly resolved [ { name: 'yeoman',
+1352 silly resolved     version: '0.9.6',
+1352 silly resolved     description: 'The Yeoman CLI presents a command line interface for creating, building, maintaining, and shipping a project.',
+1352 silly resolved     keywords:
+1352 silly resolved      [ 'front-end',
+1352 silly resolved        'development',
+1352 silly resolved        'dev',
+1352 silly resolved        'build',
+1352 silly resolved        'web',
+1352 silly resolved        'tool',
+1352 silly resolved        'cli',
+1352 silly resolved        'scaffold',
+1352 silly resolved        'stack' ],
+1352 silly resolved     homepage: 'http://yeoman.io',
+1352 silly resolved     bugs: 'https://github.com/yeoman/yeoman/issues',
+1352 silly resolved     author: { name: 'Chrome Developer Relations' },
+1352 silly resolved     main: './yeoman',
+1352 silly resolved     bin:
+1352 silly resolved      { yeoman: './bin/yeoman',
+1352 silly resolved        _yeomaninsight: './bin/yeomaninsight.py' },
+1352 silly resolved     directories: { man: './man' },
+1352 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yeoman.git' },
+1352 silly resolved     scripts:
+1352 silly resolved      { test: 'node node_modules/mocha/bin/mocha test/test-*.js',
+1352 silly resolved        manpages: './scripts/docs-build' },
+1352 silly resolved     dependencies:
+1352 silly resolved      { grunt: 'http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz',
+1352 silly resolved        'yeoman-generators': 'http://github.com/yeoman/generators/archive/0.9.5.tar.gz',
+1352 silly resolved        bower: '~0.3.0',
+1352 silly resolved        open: '0.0.2',
+1352 silly resolved        rimraf: '~2.0.1',
+1352 silly resolved        mkdirp: '~0.3.1',
+1352 silly resolved        requirejs: '~2.0.2',
+1352 silly resolved        'clean-css': '~0.3.2',
+1352 silly resolved        connect: '~2.2.1',
+1352 silly resolved        request: '~2.9.200',
+1352 silly resolved        'html-minifier': '~0.4.5',
+1352 silly resolved        which: '~1.0.5',
+1352 silly resolved        cheerio: '~0.9.2',
+1352 silly resolved        fstream: '~0.1.18',
+1352 silly resolved        'fstream-ignore': '0.0.5',
+1352 silly resolved        tar: '~0.1.13',
+1352 silly resolved        'coffee-script': '~1.3.3',
+1352 silly resolved        'grunt-jasmine-task': '~0.2.2',
+1352 silly resolved        'faye-websocket': '~0.4.2',
+1352 silly resolved        shelljs: '~0.0.6',
+1352 silly resolved        prompt: '~0.1.12',
+1352 silly resolved        colors: '~0.6.0',
+1352 silly resolved        'grunt-mocha': '~0.1.3',
+1352 silly resolved        'es6-collections': '>=0.2.0',
+1352 silly resolved        'grunt-contrib-coffee': '~0.3.1' },
+1352 silly resolved     devDependencies: { mocha: '~1.4.0', ronn: '~0.3.8' },
+1352 silly resolved     engines: { node: '>=0.8.0' },
+1352 silly resolved     man:
+1352 silly resolved      [ '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/bower.1',
+1352 silly resolved        '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/build.1',
+1352 silly resolved        '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/faq.1',
+1352 silly resolved        '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/folders.1',
+1352 silly resolved        '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/gruntfile.1',
+1352 silly resolved        '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/init.1',
+1352 silly resolved        '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/insight.1',
+1352 silly resolved        '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/serve.1',
+1352 silly resolved        '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/server.1',
+1352 silly resolved        '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/test.1',
+1352 silly resolved        '/Users/hsuh01/.npm/yeoman/0.9.6/package/man/yeoman.1' ],
+1352 silly resolved     readme: '# Yeoman CLI\n\nThe Yeoman CLI presents a command-line interface for creating, building, maintaining, and shipping a project.\n\nFor more information, see the project [readme](https://github.com/yeoman/yeoman#welcome-friend).\n',
+1352 silly resolved     readmeFilename: 'readme.md',
+1352 silly resolved     _id: 'yeoman@0.9.6',
+1352 silly resolved     dist: { shasum: '1ccede5c41a848c2a3d9ed5f89dc3bc779dabe8d' },
+1352 silly resolved     _from: 'yeoman@0.9.6' } ]
+1353 info install yeoman@0.9.6 into /usr/local/lib
+1354 info installOne yeoman@0.9.6
+1355 verbose from cache /Users/hsuh01/.npm/yeoman/0.9.6/package/package.json
+1356 info /usr/local/lib/node_modules/yeoman unbuild
+1357 verbose from cache /usr/local/lib/node_modules/yeoman/package.json
+1358 info preuninstall yeoman@0.9.5
+1359 info uninstall yeoman@0.9.5
+1360 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild yeoman@0.9.5
+1361 verbose /usr/local/bin,[object Object] binRoot
+1362 info /usr/local/lib/node_modules/yeoman unbuild
+1363 verbose read json /usr/local/lib/node_modules/yeoman/package.json
+1364 info preuninstall yeoman@0.9.5
+1365 info uninstall yeoman@0.9.5
+1366 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild yeoman@0.9.5
+1367 verbose /usr/local/bin,[object Object] binRoot
+1368 error error rolling back Error: EPERM, chmod '/usr/local/bin/yeoman'
+1368 error error rolling back  yeoman@0.9.6 { [Error: EPERM, chmod '/usr/local/bin/yeoman'] errno: 50, code: 'EPERM', path: '/usr/local/bin/yeoman' }
+1369 error Error: EPERM, chmod '/usr/local/bin/yeoman'
+1369 error  { [Error: EPERM, chmod '/usr/local/bin/yeoman'] errno: 50, code: 'EPERM', path: '/usr/local/bin/yeoman' }
+1370 error Please try running this command again as root/Administrator.
+1371 error System Darwin 11.4.2
+1372 error command "node" "/usr/local/bin/npm" "update" "-g" "yeoman"
+1373 error cwd /Users/hsuh01/Desktop/Advanced Web Design/project1
+1374 error node -v v0.8.14
+1375 error npm -v 1.1.65
+1376 error path /usr/local/bin/yeoman
+1377 error code EPERM
+1378 error errno 50
+1379 error stack Error: EPERM, chmod '/usr/local/bin/yeoman'
+1380 verbose exit [ 50, true ]
